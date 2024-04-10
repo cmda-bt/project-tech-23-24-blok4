@@ -65,6 +65,8 @@ Markdown wordt gebruikt om eenvoudige tekstdocumenten (plain text) toch van een 
 - [Interactive markdown tutorial](https://www.markdowntutorial.com/)
 - [Markdown git reference](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
+Tip: als je in VSCode een Markdown bestand bewerkt, kun je een preview venster openen naast je codevenster, zodat je meteen ziet hoe het er uit komt te zien. Op Windows open je de preview met CTRL-K en dan V.
+
 ## 9.Readme
 
 Opdracht:
