@@ -5,7 +5,7 @@ Het blok **Project Tech** wordt gegeven bij de opleiding [**CMD Amsterdam**][cmd
 
 *   **Vak**: [Project: Tech][course] (`2000PTEC23`)
 *   **Coordinator**: [Berry Nieskens][bnieskens] and [Ivo Nijhuis][ivogit]
-*   **Docenten**:  [Michael Kern][emkern], [Danny de Vries][dandevri], [Ivo Nijhuis][ivogit] (coördinator) and [Berry Nieskens][bnieskens] (coördinator) 
+*   **Docenten**:  [Danny de Vries][dandevri], [Ivo Nijhuis][ivogit] (coördinator) and [Berry Nieskens][bnieskens] (coördinator) 
 *   **Studiepunten**: 13 ECTS
 *   **Collegejaar**: 2023-2024
 *   **Blok**: blok 4 in semester 2
