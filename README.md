@@ -8,7 +8,7 @@ Het blok **Project Tech** wordt gegeven bij de opleiding [**CMD Amsterdam**][cmd
 *   **Docenten**:  [Michael Kern][emkern], [Danny de Vries][dandevri], [Ivo Nijhuis][ivogit] (coördinator) and [Berry Nieskens][bnieskens] (coördinator) 
 *   **Studiepunten**: 13 ECTS
 *   **Collegejaar**: 2023-2024
-*   **Blok**: blok 3 en 4 in semester 2
+*   **Blok**: blok 4 in semester 2
 *   **Hogeschool**: [Amsterdam University of Applied Sciences][university]
 *   **Programma**: [Communication and Multimedia Design][cmd] (full time bachelor CROHO: `34092`)
 *   **Faculteit**: [Digital Media and Creative Industries][faculty]

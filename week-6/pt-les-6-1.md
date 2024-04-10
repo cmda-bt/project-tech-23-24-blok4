@@ -1,4 +1,4 @@
-# Les 7.1 Performance en build tooling
+# Les 6.1 Performance en build tooling
 
 ## Performance
 Een site met ‘goede performance’:
@@ -22,4 +22,4 @@ Onderzoek of je build tooling kunt gebruiken om terugkerende taken in je project
 * Plaatjes optimaliseren met [Imagemin](https://github.com/imagemin/imagemin) in Node of de [Imagemin command line](https://github.com/imagemin/imagemin-cli)
 * Frontend JS minifyen met [Uglify.js](https://www.npmjs.com/package/uglify-js)
 * Stylesheets organiseren met [SASS](https://sass-lang.com/)
-* Geavanceerde build tooling: [Gulp](https://gulpjs.com/) of [Github Actions](https://docs.github.com/en/actions)
+* Voor wie nog extra uidaging zoekt is er ook meer geavanceerde build tooling: [Gulp](https://gulpjs.com/) of [Github Actions](https://docs.github.com/en/actions)
