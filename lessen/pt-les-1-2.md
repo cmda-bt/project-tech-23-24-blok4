@@ -1,88 +1,99 @@
-# Les 1.2 Git & GitHub basics
+# Les 1.2 Backend basis
+In deze les leren we meer over de techniek die komt kijken bij het opzetten van een dynamisch web-project: hoe werkt precies HTTP, hoe kun je de command line gebruiken voor geavanceerde instructies en wat is het verschil tussen een site met functionaliteit in de frontend en één met functionaliteit in de backend? Ook leren we meer over Node.js en NPM.
 
-In deze les leren we de basis van Git en het social coding platform GitHub.
+Na al deze theorie is het ook tijd een begin te maken met het eindproduct. Je brainstormt over het concept voor de matching-app die je wilt bouwen en documenteert dit in je wiki.
 
-## 1. Aanmaken GitHub Account
+## 1. HTTP request en response
+🎦 Bekijk de [video over HTTP](https://www.youtube.com/watch?v=IS3HRyUXJX0) requests en responses.
 
-Als je dit nog niet eerder had gedaan, maak dan [een account aan op GitHub](https://help.github.com/articles/signing-up-for-a-new-github-account/). Neem een moment om je [GitHub profiel](https://github.com/settings/profile) te vullen met je naam, een leuke foto en andere relevante info over jezelf. Het is fijn als de docenten je aan je naam of foto enigszins kunnen herkennen, maar verder is creativiteit hier toegestaan.
+## 2. Command line
+Gedurende dit blok zullen we regelmatig gebruik maken van de Terminal. Neem een moment om deze op je computer gereed te maken en de basis te leren.
 
-> Je mag er zeker voor kiezen online anoniem te blijven door geen persoonlijke gegevens op GitHub te delen, maar een professioneel gevuld GitHub profiel kan je helpen bij het zoeken van een stage of baan later.
+*Windows:*  
+Nieuwe versies van Windows gebruiken PowerShell als command line interface. Type 'PowerShell' in de zoekbalk van je start-menu of taakbalk. Je start PowerShell standaard als gewone gebruiker, maar je kunt er ook voor kiezen het te starten als administrator. Normaal gesproken is het verstandig PowerShell uit te voeren als gewone gebruiker. Je hebt dan iets minder rechten, maar ook minder kans per ongeluk dingen kaport te maken.
 
-## 2. Git installeren
+Standaard heeft PowerShell een aantal beveiligingsinstellingen, waarbij het bijvoorbeeld niet mogelijk is scripts te runnen zonder permissie. Dit kan later in dit blok een probleem worden, als je bijvoorbeeld nodemon wilt starten en het werkt niet. Je kunt je huidige instellingen controleren in PowerShell met het commando: 
+```sh
+Get-ExecutionPolicy -List
+```
+en deze eventueel iets versoepelen met het commando:
+```sh
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
 
-_Windows:_  
-Download en installeer [Git for Windows](https://gitforwindows.org/). De meeste opties bij het installeren zijn standaard goed ingevuld, maar een paar instellingen verdienen je aandacht:
+*MacOS:*  
+Apple heeft ook een ingebouwde command line interface. Zoek naar `terminal` met **spotlight** of kijk in je applications folder. Ook op Mac voer je in de Terminals standaard commando's uit met de rechten van een gewone gebruiker. De meeste dingen kun je hiermee doen, met minder risico belangrijke zaken kapot te maken. Voor sommige instellingen of het installeren van software heb je soms administrator rechten nodig. Je kunt dan `sudo` voor een commando zetten. Stel dat je geen toegang hebt tot een bepaalde directory, en `ls` geeft daarom een foutmelding, dan zou `sudo ls` wel kunnen werken.
 
-- Je kunt je eigen favoriete editor kiezen (Visual Studio Code of een andere).
-- Het handigste is om als default branch name voor nieuwe repositories te kiezen voor 'main'. Vroeger was de default meestal 'master', maar dat heeft nogal ongelukkige associaties met het slavernijverleden. Als je kiest voor 'main' werkt het straks goed samen met GitHub, waar dat ook de standaard naam is.
-- Kies tenslotte voor 'Git from the command line and also from 3rd party software', zodat je zowel vanuit PowerShell als uit bv Visual Studio Code met Git kunt werken.
+> 💡 Op Macs met MacOS Catalina (of nieuwer) is de standaard shell `zsh`, daarvoor was het `bash`. Als je `bash` hebt als standaard instelling, raden we aan dat aan te passen volgens de instructie in dit [Apple support article](https://support.apple.com/en-us/HT208050).
 
-_MacOS:_  
-**Git installeren**\
-Open een terminal en geef het commando `git --version` om te controleren of en welke versie van Git is geïnstalleerd. Apple levert in MacOS namelijk een eigen versie van het Git-protocol. Dit is niet de meest recente versie maar je gaat er alles mee kunnen doen wat vereist is voor dit project.
+Veel mensen vinden het ook fijn de [Integrated Terminal](https://code.visualstudio.com/docs/editor/integrated-terminal) direct vanuit VSCode te gebruiken.
 
-Is er geen versie van "Apple git" geinstalleerd, dan kun je dat alsnog doen door de Developer Tools te installeren. De instructies daarvoor vind je in de [Handleiding Git & VSCode op MacOS](https://bnieskens.notion.site/Apple-Git-VS-code-ac5ff7c895df4a2dbe29eb3600f8fb7c?pvs=4).
+**Theorie Command Line**
 
-Wil je toch de (meest recente versie van de) 'officiële' Git installeren, dan vind je op de website van [Atlassian](https://www.atlassian.com/git/tutorials/install-git) een uitgebreide tutorial.
+Gebruik onderstaande resources om meer te leren over de commando's die je kunt gebruiken in de terminal:
+* Voor Windows gebruikers: Lees [Working with files and folders](https://learn.microsoft.com/en-us/powershell/scripting/samples/working-with-files-and-folders?view=powershell-7.3) en kijk de video: [Powershell for Beginners](https://www.youtube.com/watch?v=Jfvg3CS1X3A)
+* Voor Mac gebruikers: volg [A Designer’s Guide to the Terminal](https://react.design/terminal) en kijk de video: [Command Line Basics video](https://www.youtube.com/watch?v=DP218aBHm1Q) van CLI cursus door Wes Bos
 
-## 3. Van start met GIT
+**Opdracht - Oefenen met de Command Line** 
 
-Verdiep je verder in de basics van Git door onderstaand artikel te lezen en de oefening te maken:
+Maak de volgende opdrachten om de basis van de command line onder de knie te krijgen
+* Zoek de folder met je documenten voor Project Tech in je verkenner of finder. Open nu een terminal venster en zoek daar dezelfde folder op. Tip: gebruik `cd` en `pwd`
+* Vraag een lijst op van de bestanden in deze folder. Tip: gebruik `ls`
+* Maak een kopie van een van deze bestanden.
+* Maak in de folder een nieuwe lege directory aan
+* Verplaats de kopie die je net gemaakt had, naar de nieuwe directory
+* Verwijder de nieuwe directory inclusief het gekopieerde bestand
+* Kijk of je in de folder van je project zogenaamde `dotfiles` kunt vinden. Dit zijn bestanden of folders waarvan de filenaam begint met een . (punt), zoals bijvoorbeeld `.gitignore`, `.DS_Store`, `.git` of `.env`. Dit zijn bestanden met systeeminstellingen, die standaard verborgen zijn (niet getoond worden). Op de Mac kun je ze laten zien met het commando `ls -a` en op Windows met `ls -hidden`. Op Windows is het ook handig in de verkenner onder het menu Weergeven de verborgen items aan te vinken.
 
-- Lees hoofdstuk [**1.1, 1.2 & 1.3**](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control) van het _Pro Git Online Book_.
-- Volg de oefening: [Introduction to GitHub](https://github.com/skills/introduction-to-github) op GitHub Skills.
+## 3. Node.js en NPM
+Bekijk onderstaande video's:
+* [De browser versus Node.js](https://www.youtube.com/watch?v=ZpiHUOM_Y-0)
+* [NPM](https://www.youtube.com/watch?v=X8D5Ijpp824)
+* [Live demo NPM en packages](https://www.youtube.com/watch?v=shSB9BbK1gU).
 
-## 4. Git gebruiken met VS Code
+Installeer nu op je eigen computer Node (inclusief NPM)
 
-Je kunt Git op verschillende manieren gebruiken, bijvoorbeeld met instructies vanuit de Command Line (Terminal op de Mac, of PowerShell voor Windows), of via een aparte GUI zoals Git Desktop. Veel studenten werken met Visual Studio Code voor het bewerken van hun code en daar is ondersteuning voor Git al ingebouwd.
+### Node - installeren op Mac
 
-- Bekijk de video [Using Git with Visual Studio Code](https://www.youtube.com/watch?v=i_23KUAEtUM)
+Open je **terminal**, en installeer [nvm](https://github.com/creationix/nvm) als volgt:
 
-## 5. Repository & commit
+```sh
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+```
 
-Opdracht: maak op GitHub een nieuwe repository aan. Hierin komt straks de code van je feature en de bijbehorende documentatie. Maak in je nieuwe repository alvast een readme.md aan, die je later nog kunt invullen. Ook kun je een license toevoegen. Maak in je repo ook alvast een wiki aan, met daarin een eerste pagina. In je wiki ga je je eigen onderzoek tijdens Project Tech vastleggen. Verken de interface van je repository en kijk eens naar de verschillende mogelijkheden en instellingen. Wat zie je terug van de dingen die je hierboven hebt geleerd?
+Controleer of `nvm` goed is geinstalleerd:
+```sh
+nvm --version # Should print a version number
+```
 
-Leer jezelf aan om, zodra je een klein stukje code of documentatie hebt geschreven, zo veel mogelijk **kleine commits** te maken. Het is heel normaal om 5 of 6x per dag een commit te maken in plaats van één grote commit aan het einde van de dag. Het is daarbij ook een goede gewoonte om je commit te beschrijven met een duidelijke commit message.
+> Zie je de foutmelding `nvm command not found`? Dan is NVM niet goed geïnstalleerd. Lees  [troubleshouting section on nvm](https://github.com/nvm-sh/nvm#troubleshooting-on-macos) zorgvuldig om dit op te lossen. 
 
-- Lees het artikel: [How to write a commit message](https://cbea.ms/git-commit/)
-- Denk na over je eigen git strategie: hoe ga je je commit messages opstellen? Ga je gebruik maken van branches en zo ja, op welke manier? Ga je gebruik maken van issues of de project-tools binnen GitHub? Doe zelf onderzoek naar de verschillende mogelijkheden en maak een nieuwe pagina aan op je wiki, waarin je je gekozen Git strategie beschrijft.
+**Sluit je terminal af en start deze opnieuw**. Type vervolgens:
 
-## 6. Gitignore
+```sh
+nvm install stable
+```
 
-Niet alle bestanden die op je computer staan, horen ook in je repo thuis. Denk aan systeembestanden (zoals de .DS_Store files die een Mac automatisch overal aanmaakt), logfiles, tijdelijke bestanden of bestanden met gevoelige informatie. In een [.gitignore](https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files) bestand kun je aangeven welke files en folders niet op GitHub moeten komen.
+Node en NPM zijn nu geïnstalleerd. Check dit met:
 
-Opdracht: maak in je eigen repository een .gitignore file aan en zet hierin de te negeren files en folders.
+```sh
+node -v # Should print v18.12.1 (or a higher version)
+npm -v # Something like 9.2.0 (or a higher version)
+```
 
-## 7. Wiki
+[🎦 Video over het intalleren van Node op MacOS](https://www.youtube.com/watch?v=EQWyWQhphGw)
 
-Alle research die je tijdens Project Tech doet, documenteer je op je eigen wiki. De docenten zullen deze regelmatig bekijken en hier ook feedback op geven. Op dit moment kun je in elk geval al een pagina op je wiki maken, waarin je vertelt over de verschillende alternatieven die je hebt gevonden voor het gebruiken van Git/GitHub en de uiteindelijk door jou gekozen strategie.
+> Als je in plaats van bovenstaande instructies gebruik maakt van de Node [installer](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm), kun je geconfronteerd worden met een [`eaccess`](https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally) probleem. Om die reden raden wij bovenstaande werkwijze met nvm aan. De node installer installeert npm in een directory met local permissions, wat problemen zal geven als je npm packages global wilt gebruiken.
 
-## 8. Markdown
+### Node - installeren op Windows
+Er is geen NVM voor Windows. We gaan daarom naar de [node.js website](https://nodejs.org/) om node.js voor Windows te downloaden en installeren. Kies de LTS (Long-Term Support) versie, dit is de nieuwste stabiele versie. 
 
-Markdown wordt gebruikt om eenvoudige tekstdocumenten (plain text) toch van een beetje structuur en opmaak te voorzien. Markdown is erg populair onder developers en wordt ook op veel plekken op Github gebruikt: voor het schrijven van documentatie, in je readme, bij het aanmaken van issue, je wiki, bij code reviews en ook in het document wat je nu aan het lezen bent. Gebruik onderstaande resources om meer over Markdown te leren:
+Node en npm zijn nu geinstalleerd. Dit kun je als volgt in PowerShell controleren:
 
-- [Wes Bos Mastering Markdown course](https://www.youtube.com/watch?v=Je5w18nn-e8&list=PLu8EoSxDXHP7v7K5nZSMo9XWidbJ_Bns3)
-- [Interactive markdown tutorial](https://www.markdowntutorial.com/)
-- [Markdown git reference](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+```sh
+node -v # Should print 18.13.0 (or a higher version)
+npm -v # Something like 8.19.0 (or a higher version)
+```
 
-Tip: als je in VSCode een Markdown bestand bewerkt, kun je een preview venster openen naast je codevenster, zodat je meteen ziet hoe het er uit komt te zien. Op Windows open je de preview met CTRL-K en dan V.
-
-## 9.Readme
-
-Opdracht:
-
-- Bekijk de readme's van een aantal populaire repo’s. Wat voor onderwerpen worden besproken in deze readme’s en hoe zijn ze opgebouwd?
-- Lees het artikel: [About readmes](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)
-- Schrijf in je eigen readme - in je repository - een inhoudsopgave, met daarin alvast de onderwerpen die je tijdens project uiteindelijk verder zult gaan uitwerken. Hierbij gebruik je natuurlijk markdown!
-
-## 10. License & Open Source
-
-Lees de onderstaande artikelen:
-
-- [Starting an Open Source Project](https://opensource.guide/starting-a-project/)
-- [The Legal Side of Open Source](https://opensource.guide/legal/)
-
-Opdracht: kies nu een eigen License voor je project en voeg deze toe aan je repo. Gebruik eventueel [choosealicence.com](https://choosealicense.com/) om je te helpen bij je keuze.
-
-## 12. Bronnen
-Roger Dudler heeft een [praktisch overzicht](https://rogerdudler.github.io/git-guide/) gemaakt voor Git-beginners. 
+## 4. Node modules
+Kijk eens rond op de [npm registry](https://www.npmjs.com/) of je packages kunt vinden, die handig zouden kunnen zijn voor je (backend) project. Daarnaast kun je kijken of je handige 'developer dependencies' op NPM kunt vinden, die straks je leven als developer makkelijk kunnen maken. Een goed voorbeeld is [nodemon](https://nodemon.io/), die automatisch je server herstart als je je code hebt aangepast. Super handig, dus dit is een goed moment om die vast te installeren.
