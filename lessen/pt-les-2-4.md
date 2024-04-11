@@ -1,20 +1,61 @@
-# Les 2.4 Concept & Q&A
+# Les 2.4 Backend
+## Express
+Opdracht: we maken onze eerste eenvoudige webserver met behulp van Node.js en Express. Zie bij deze opdracht het voorbeeld wat we hebben behandeld in de les en het vergelijkbare voorbeeld op [Hello World](https://expressjs.com/en/starter/hello-world.html).
 
-- Team samenstellen door docenten
-- Rubric bespreken
-- Concept bedenken in teams
-- Inloggegevens per team voor API
-- Q&A over lesstof week 1 en 2
-- bouwen individuele feature en teamleden ondersteunen
+1. open een terminal
+2. maak een nieuwe folder voor je nieuwe node project (`mkdir`)
+3. ga naar deze folder (`cd`)
+4. start een nieuw node project (`npm init`)
+5. installeer express voor dit project (`npm install express`)
+6. maak een bestand `index.js` met de code van je server. Maak hierin tenminste één route aan, die als als antwoord op een request de response `Hello World` terugstuurd
+7. start de server (`node index.js`)
+8. doe vanuit je browser een http request naar deze server op de URL localhost:8000 (of een ander door jou gekozen poortnumer) en kijk of het werkt. Zo niet, check in elk geval in je terminal of je daar een probleem ziet.
 
-## 1. Concept
-Denk na over de matching site die je wilt gaan bouwen en uit welke afzonderlijke onderdelen deze kan bestaan.
+Een paar vragen voor als je klaar bent:
+* Je hebt net een server gemaakt. Waar draait deze en wat gebeurt er als je je computer uitzet?
+* Wat is `localhost` en hoe verschilt dit van een ander domein?
 
-1. Denk na over een concept voor de matching site. Wie ga je matchen met wie of wat? Kun je een creatieve manier bedenken, om matches tot stand te brengen? Brainstorm over een aantal mogelijkheden. Door welke bestaande concepten kun je je laten inspireren? Documenteer je onderzoek op je wiki en kies vervolgens een concept uit om verder uit te werken.
-2. Denk na over je doelgroep. Wat zijn dit voor mensen, wat vinden ze leuk en wat voor functionaliteit verwachten ze? Wat zijn hun wensen en uitdagingen? Misschien kun je een aantal mensen interviewen of online informatie vinden over deze groep. Documenteer je onderzoek wederom op de wiki.
-3. Beschrijf op je wiki een aantal (ongeveer 5) [Job Stories](https://jtbd.info/replacing-the-user-story-with-the-job-story-af7cdee10c27) op om ideeën te genereren over de functionaliteit die nodig is op je matching site. Maak uit de gevonden job stories een keuze voor een functionaliteit die jij verder uit gaat werken.
-4. Werk de gekozen job story op je wiki verder uit door hier een [requirements list](https://cmdmethods.nl/cards/stepping-stones/requirements-list) voor op te stellen.
-5. Schets ten slotte één of meer lo-fi [wireframes](https://cmdmethods.nl/cards/stepping-stones/design-specification) om een idee te krijgen van het gebruikers interface.
+**Push je code**  
+Commit je webserver code naar je GitHub repository.  
 
-Leg al het bovenstaande vast op je wiki, zodat we je hier ook feedback op kunnen geven. De focus van dit project is Tech, dus het is niet nodig een volledig design uit te werken. Voor nu is het vooral belangrijk om meer duidelijkheid te krijgen over wat je de komende weken gaat maken.
+## Routes en static
+Opdracht: breid je webserver uit met meerdere routes en de mogelijkheid om static content (zoals images en een stylesheet) te serveren.
 
+Voordat je begint, is het verstandig je verder te verdiepen in de techniek met behulp van onderstaande resources.
+* [🎦 Bekijk een video over routing en express.](https://www.youtube.com/watch?v=SRHQ3FM39Qg)
+* [Introducing Express on MDN](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction#introducing_express)
+* [Basic Routing](https://expressjs.com/en/starter/basic-routing.html)
+* [Express Routing guide](https://expressjs.com/en/guide/routing.html)
+* [Static Files](https://expressjs.com/en/starter/static-files.html)  
+
+Je bent nu klaar om je server uit te breiden met meer functionaliteit. Voeg in elk geval onderstaande drie dingen toe:
+
+1. **Basic routing:** Zorg dat je server verschillende responses kan geven op een aantal verschillende `routes` (b.v. `/about` of `/login`) die nuttig zijn voor je matching-application. Kun je al een route maken met een route parameter, bijvoorbeeld `profile/:username`?
+2. **Error handling:** Antwoord met een `404 Not Found` als een route wordt opgevraagd die niet bestaat.
+3. **Serve static files:** Zoals CSS en afbeeldingen.
+
+Een vraag voor als je klaar bent:
+* Wat zijn precies de `req` and `res` parameters die je in je routes gebruikt?
+
+**Push je code**  
+Push de nieuwste versie van je webserver code naar je GitHub repository.  
+
+## Templating engine
+Opdracht: gebruik de templating engine om voor je routes views te renderen met dynamische data.
+
+Bestudeer eerst onderstaande resource voor meer informatie en voorbeelden voor het gebruik van EJS met Node.js
+* [EJS templates met Node](https://www.digitalocean.com/community/tutorials/how-to-use-ejs-to-template-your-node-application)
+
+1. installeer en configureer de templating engine EJS
+   
+2. maak een paar views voor verschillende routes en laat die renderen vanuit de callback functies voor die routes. Begin met eenvoudige HTML (zonder dynamische logica) in je views en zorg dat er voor elke route een andere view wordt gerenderd.
+
+3. probeer vervolgens vanuit je views dynamische data te tonen. Je kunt in de code van je Node.js webserver een variabele, JavaScript object of array definieren, en de waarde daarvan doorgeven aan de templating engine vanuit je callback functie. Als je een route hebt met een route parameter, is het interessant om de waarde van die route parameter als variabele door te geven aan je view en vanuit daar te tonen.
+  
+4. Ontdek meer mogelijkheden van je templating engine. Probeer in elk geval:
+   * [includes](https://ejs.co/#includes); om de inhoud van een (partial) view in een andere view op te nemen.
+   * [if en else](https://www.includehelp.com/node-js/ejs-if-else-statement-ejs-conditions.aspx); om stukken HTML wel of niet te tonen afhankelijk van de voorwaarden
+   * [loops](https://www.includehelp.com/node-js/ejs-for-loops.aspx); om een lijst van items uit te schrijven
+
+**Push je code**  
+Push tenslotte weer de nieuwste versie van je webserver code naar je GitHub repository.  
