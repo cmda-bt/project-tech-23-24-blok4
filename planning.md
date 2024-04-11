@@ -99,7 +99,7 @@ Geen les 3 en 4 ivm Pinksteren
 ## Les 8.3 [GW] Groepswerk [Berry]
 ## Les 8.4 [FB] Feedbacksessie [Ivo en Berry]
 
-- Inleveren competentieverslag
+* Inleveren competentieverslag
 
 # Week 9
 ## Teampresentaties met individuele demo's
