@@ -38,7 +38,7 @@
 ## Les 2.2 [WG] Frontend API basics [Berry]
 
     - Frontend: API basics, empty & loading state
-    - Keuze voor specialisatie maken (docenten inventariseren)
+    - Keuze voor teamrol (FE/BE) maken (docenten inventariseren)
 
 ## Les 2.3 [WG] Concept eindopdracht & Frontend Lijstjes [Berry]
 
