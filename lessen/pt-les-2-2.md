@@ -2,12 +2,11 @@
 
 
 ## Soorten API
-- OS API (MacOS, Windows, etc)
-- Browser API
-    -- Web Storage (localStorage en sessionStorage)
-    -- Geolocation API
-    -- ...
-- Online Web API
+* OS API (MacOS, Windows, etc)
+* Browser API
+    * Web Storage (localStorage en sessionStorage)
+    * Geolocation API
+* Online Web API
 
 Deze les focussen we op online Web API. 
 
