@@ -24,7 +24,7 @@ Leg al het bovenstaande vast op je wiki, zodat we je hier ook feedback op kunnen
 
 ## 2. Frontend (lijstjes) 
 ### Bronnen en tools
-- [Bekijk deze slides](slides/fe-1-lijstjes.pdf) (Drag 'n drop en carousel optioneel, die worden ook behandeld in week 4)
+- [Bekijk deze slides](https://github.com/cmda-bt/project-tech-23-24-blok4/blob/main/bronnen/Frontend/fe-1-lijstjes.pdf) (Drag 'n drop en carousel optioneel, die worden ook behandeld in week 4)
 
 - library: **[list.js - voor zoeken en sorteren](https://listjs.com/)** (www)
 - library: **[Hammer.js - swipen en andere touch events](https://hammerjs.github.io/)** (www)
