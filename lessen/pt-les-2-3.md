@@ -18,7 +18,7 @@ Denk na over de matching site die je wilt gaan bouwen en uit welke afzonderlijke
 4. Werk de gekozen job story op je wiki verder uit door hier een [requirements list](https://cmdmethods.nl/cards/stepping-stones/requirements-list) voor op te stellen.
 5. Schets ten slotte één of meer lo-fi [wireframes](https://cmdmethods.nl/cards/stepping-stones/design-specification) om een idee te krijgen van het gebruikers interface.
 
-Leg al het bovenstaande vast op je wiki, zodat we je hier ook feedback op kunnen geven. De focus van dit project is Tech, dus het is niet nodig een volledig design uit te werken. Voor nu is het vooral belangrijk om meer duidelijkheid te krijgen over wat je de komende weken gaat maken.
+Leg al het bovenstaande vast op je wiki, zodat we je hier ook feedback op kunnen geven. Voor nu is het vooral belangrijk om meer duidelijkheid te krijgen over wat je de komende weken gaat maken.
 
 
 
