@@ -2,7 +2,7 @@
 
 Als voorbereiding kun je de animatie basics weer even opfrissen:
 
-- maken: **[Oefeningen - Animaties recap](slides/fe-2-animeren.pdf)** (pdf, 5MB)
+- maken: **[Oefeningen - Animaties recap](/bronnen/Frontend/fe-2-animeren.pdf)** (pdf, 5MB)
 - bekijken: **[CSS Animation in 100 Seconds](https://youtu.be/HZHHBwzmJLk)** (YouTube, 2min)
 - bekijken: **[An introduction to CSS custom properties](https://youtu.be/PHO6TBq_auI)** (YouTube, 12min)
 
