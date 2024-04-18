@@ -154,7 +154,18 @@ async function fetchData(url) {
 ```
 Bovenstaande code zorgt ervoor dat in de asynchrone functie die de API data binnenhaalt en verwerkt, de loader vooraf wordt getoond en na afloop weer wordt verborgen. 
 
+### Opzettelijke delay
+Soms gaat het laden van de API data toch zo snel, dat je de loader die je hebt klaargezet niet of nauwelijks te zien krijgt. Met onderstaande code kun je opzettelijk een vertraging inbouwen waardoor je afdwingt dat de lader tenminste 3 seconden wordt getoond. Dit is handig tijdens het testen van je code. 
+```
+async function fetchData(url) {
+    loaderDiv.classList.add("loading")
+    await new Promise((resolve) => setTimeout(resolve, 3000)); // Voeg deze regel toe om het laden van de API data te vertragen
+    const response = await fetch(...)
+    const data = await response.json()
+    loaderDiv.classList.remove("loading")
+}
 
+ ```
 
 
 ## Uitgebreide oefening
