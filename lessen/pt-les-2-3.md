@@ -23,6 +23,11 @@ Leg al het bovenstaande vast op je wiki, zodat we je hier ook feedback op kunnen
 
 
 ## 2. Frontend (lijstjes) 
+
+
+
+
+
 ### Bronnen en tools
 - [Bekijk deze slides](/bronnen/Frontend/fe-1-lijstjes.pdf) (Drag 'n drop en carousel optioneel, die worden ook behandeld in week 4)
 

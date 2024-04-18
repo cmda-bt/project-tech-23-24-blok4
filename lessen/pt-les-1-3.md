@@ -7,3 +7,6 @@
 - import met 'require'
 
 ## 2. Lesopdrachten maken en bespreken
+- [PT 006 - Functies](https://scrimba.com/scrim/co2be4b47843a41d9ecf98332)
+- [PT 007 - Objecten](https://scrimba.com/scrim/co3c54779a3d30a1dbe92c4b6)
+- [PT 008 - Herhalingen (loops)](https://scrimba.com/scrim/cwmgz7Cm)
