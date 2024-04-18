@@ -28,10 +28,10 @@
     - Fetch in Async functie met await
   
 ## Les 2.2 [WG] Frontend API basics [Berry]
-    - Frontend: API basics, empty & loading state
-    - Keuze voor specialisatie maken (docenten inventariseren)
+    - Frontend: API basics, loading state
+    - Keuze voor teamrol maken (docenten inventariseren)
     
-## Les 2.3 [WG] Concept eindopdracht & Frondend Lijstjes [Berry]
+## Les 2.3 [WG] Concept eindopdracht & Frontend Lijstjes [Berry]
     - Verdieping kiezen en Teams indeling
     - Concept (in team) 
     - Frontend: Lijstjes (ListJS)
