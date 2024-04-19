@@ -7,7 +7,9 @@ Voor dit project stellen wij een API beschikbaar. Met deze API kun je data lezen
 
 In beide gevallen is het aan de praat krijgen van de API een mooie oefening om de basis van Node.js en NPM onder de knie te krijgen. 
 
-Je kunt onze [API vinden op GitHub](https://github.com/ivo-online/database_api). Volg daar de instructies in de README.md om een kopie te maken van deze API op je eigen computer. Je moet hierbij een aantal persoonlijke toegangsgegevens invullen in een eigen .env file. De benodigde waardes krijg je van je docenten.
+Je kunt onze [API vinden op GitHub](https://github.com/ivo-online/database_api). Volg daar de instructies in de README.md om een kopie te maken van deze API op je eigen computer. Je moet hierbij een aantal persoonlijke toegangsgegevens invullen in een eigen .env file. De benodigde waardes krijg je van je docenten. 
+
+Tip voor de Mac gebruikers: bestanden zoals .env waarvan de naam begint met een . (punt), de zogenaamde dotfiles, worden standaard verborgen. In de terminal kun je ze zien met het commando `ls -a` en in de Finder door de toetsen command-shift-. in te drukken. 
 
 🎦 Bekijk de video over het [ installeren en uitproberen van de API](https://youtu.be/MpDuQBQfJZM).
 
