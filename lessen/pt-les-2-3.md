@@ -10,6 +10,7 @@
 - bouwen individuele feature en teamleden ondersteunen
 
 ## 1. Concept
+
 Denk na over de matching site die je wilt gaan bouwen en uit welke afzonderlijke onderdelen deze kan bestaan.
 
 1. Denk na over een concept voor de matching site. Wie ga je matchen met wie of wat? Kun je een creatieve manier bedenken, om matches tot stand te brengen? Brainstorm over een aantal mogelijkheden. Door welke bestaande concepten kun je je laten inspireren? Documenteer je onderzoek op je wiki en kies vervolgens een concept uit om verder uit te werken.
@@ -20,30 +21,68 @@ Denk na over de matching site die je wilt gaan bouwen en uit welke afzonderlijke
 
 Leg al het bovenstaande vast op je wiki, zodat we je hier ook feedback op kunnen geven. Voor nu is het vooral belangrijk om meer duidelijkheid te krijgen over wat je de komende weken gaat maken.
 
+## 2. ListJS: lijsten filteren, sorteren en doorzoeken
 
+List.js is een JavaScript-bibliotheek die programmeurs kunnen gebruiken bij het maken van interactieve lijsten. Het stelt de bezoeker in staat om in de front-end een lijst met gegevens te filteren, sorteren en doorzoeken zonder dat daarvoor gebruik wordt gemaakt van backend-code of een database.
 
-## 2. Frontend (lijstjes) 
+### Filteren
 
+Met ListJS kun je de _list items_ in een lijst filteren.
 
+HTML
 
+```
+<head>
+<script src="//cdnjs.cloudflare.com/ajax/libs/list.js/2.3.1/list.min.js"></script>
+</head>
 
+<body>
+    <div id="nameList">
+        <input type="search" class="search" placeholder="Filter by name..." />
+
+        <ul class="list">
+          <li><span class="name">Emma</span></li>
+          <li><span class="name">Noah</span></li>
+          <li><span class="name">Olivia</span></li>
+          <li><span class="name">Liam</span></li>
+          <li><span class="name">Ava</span></li>
+        </ul>
+    </div>
+</body>
+```
+
+- De script-tag voor het importeren van List.js is in de _head_ van de pagina geplaatst om ervoor te zorgen dat de bibliotheek geladen is voordat je eigen scripts worden uitgevoerd.
+
+JavaScript
+
+```
+let options = {
+  valueNames: [ 'name' ],
+};
+
+let userList = new List('nameList', options);
+
+```
+
+- `new List()` initialiseert List.js. Het definieert de (standaard) configuratie en initialiseert de bibliotheek met je specifieke instellingen .
 
 ### Bronnen en tools
+
 - [Bekijk deze slides](/bronnen/Frontend/fe-1-lijstjes.pdf) (Drag 'n drop en carousel optioneel, die worden ook behandeld in week 4)
 
 - library: **[list.js - voor zoeken en sorteren](https://listjs.com/)** (www)
 - library: **[Hammer.js - swipen en andere touch events](https://hammerjs.github.io/)** (www)
 
 ### Oefeningen
+
 - code: **[Oefening lijstjes en libs - views](https://codepen.io/shooft/pen/wvErdwQ)** (Codepen)
 - code: [**Oefening lijstjes en libs - filteren**](https://codepen.io/shooft/pen/BaOwRyq) (Codepen)
 - code: [**Oefening lijstjes en libs - zoeken**](https://codepen.io/shooft/pen/PodJmzy) (Codepen)
 - code: [**Oefening lijstjes en libs - sorteren**](https://codepen.io/shooft/pen/XWPeRjK) (Codepen)
 
-
 ### Uitwerkingen
+
 - uitwerking: **[Oefening lijstjes en libs - views](https://codepen.io/shooft/pen/BaOwRBq)** (Codepen)
 - uitwerking: [**Oefening lijstjes en libs - filteren**](https://codepen.io/shooft/pen/bGxoWNO) (Codepen)
 - uitwerking: **[Oefening lijstjes en libs - zoeken](https://codepen.io/shooft/pen/BaOwRzv)** (Codepen)
 - uitwerking: **[Oefening lijstjes en libs - sorteren](https://codepen.io/shooft/pen/ExewmgN)** (Codepen)
-
