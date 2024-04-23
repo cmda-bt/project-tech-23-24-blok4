@@ -52,6 +52,7 @@ HTML
 ```
 
 - De script-tag voor het importeren van List.js is in de _head_ van de pagina geplaatst om ervoor te zorgen dat de bibliotheek geladen is voordat je eigen scripts worden uitgevoerd.
+- De content die je 'zoekbaar' wil maken moet een class krijgen. Vandaar dat er een _span_-element voor wordt gebruikt zodat je die class eraan kan koppelen. Die class aan de _li_ koppelen zal niet werken.
 
 JavaScript
 
@@ -64,7 +65,9 @@ let userList = new List('nameList', options);
 
 ```
 
-- `new List()` initialiseert List.js. Het definieert de (standaard) configuratie en initialiseert de bibliotheek met je specifieke instellingen .
+- In de variabele _options_ geef je aan welke _class_ de content heeft die je wil doorzoeken. Je kan meerdere _classes_ toevoegen aan de array _valueNames_ als dat nodig is. Alle content in al die _classes_ wordt dan meegenomen in je zoekopdracht.
+- `new List()` initialiseert List.js. Het definieert de (standaard) configuratie en initialiseert de bibliotheek met je specifieke instellingen.
+- Het eerste argument van `new List()` is de _div_ waar de zoekbalk en de te doorzoeken content in staat. In dit geval is dat de ID _nameList_
 
 ### Bronnen en tools
 
