@@ -1,2 +1,22 @@
-# Les 4.3 Groepswerk
-- Bouwen individuele feature
+# Les 4.3 Draga 'n drop, feedbacksessie
+
+## 1. Instructie feedbacksessie
+
+## 2. Drag 'n drop
+
+### Bronnen en tools
+- library: **[SortableJS - voor drag en drop](http://sortablejs.github.io/Sortable/)** (www)
+- library: **[Swiper - voor carousels](https://swiperjs.com/demos)** (www)
+- library: **[Hammer.js - swipen en andere touch events](https://hammerjs.github.io/)** (www)
+
+### Oefeningen
+- code: **[Oefening lijstjes en libs - drag-n-drop](https://codepen.io/shooft/pen/ZEMXKxp)** (Codepen)
+- code: **[Oefening lijstjes en libs - carousel](https://codepen.io/shooft/pen/RwYLgrm)** (Codepen)
+- code: **[Oefeningen - API drag-and-drop](https://codepen.io/shooft/pen/gOdepNo)** (Codepen)
+
+### Uitwerkingen
+- uitwerking: **[Oefening lijstjes en libs - drag-n-drop](https://codepen.io/shooft/pen/eYLGWMB)** (Codepen)
+- uitwerking: **[Oefening lijstjes en libs - carousel](https://codepen.io/shooft/pen/GRXMEoV)** (Codepen)
+- uitwerking: **[Oefeningen - API drag-and-drop](https://codepen.io/shooft/pen/NWLYqZL)** (Codepen)
+
+

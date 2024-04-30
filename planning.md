@@ -45,7 +45,6 @@
     - Frontend: Lijstjes (ListJS)
 
 ## Les 2.4 [WG] Backend [Ivo]
-
     - Express, Routes, static, templates
     - Q&A lesstof week 1 & 2
 
@@ -54,45 +53,40 @@
 # Week 3
 
 ## Les 3.1 [WG] [Ivo en Berry]
-
-- Formulieren basis
-- Login met JSON
-- Verdieping frontend: Animeren
+    - Formulieren met JSON
+    - Formulieren met Data API
 
 ## Les 3.2 [WG] [Danny]
-
-- Instructie feedbacksessie
-- Verdieping backend: formulieren verwerken met Node.js en database
-- Formulieren verwerken
+    - Gebruik van GitHub voor teams
+    - Back-end: formulieren verwerken met Node.js en database
 
 Geen les 3 en 4 ivm Hemelvaart
 
 # Week 4
 
 ## Les 4.1 [WG] [Ivo en Berry]
-
-- Verdieping frontend: Drag 'n' Drop, Carousel
-- Verdieping backend: Vervolg formulieren verwerken met Node.js en database
+    - Backend: Vervolg formulieren verwerken met Node.js en database
+    - Frontend: Animeren herhaling
 
 ## Les 4.2 [WG] [Berry]
+    - Frontend optimalisaties
+    - Responsive design
+    - Coding standards
 
-- Gebruik van GitHub voor teams
-- Frontend optimalisaties
-- Code standards
+## Les 4.3 [GW] Feedbacksessie [Berry]
+   - Drag 'n' Drop, Carousel
+   - Instructie feedbacksessie
 
-## Les 4.3 [GW] Groepswerk [Berry]
+## Les 4.4 [FB] Groepswerk [Ivo]
 
-## Les 4.4 [FB] Feedbacksessie [Ivo]
-
-# Week 5
+# Week 5    
 
 Geen les 3 en 4 ivm Pinksteren
 
 ## Les 5.1 [WG] [Berry]
-
-- Workshop security
-- Input validation en sanitisation
-- Password hashing
+    - Workshop security
+    - Input validation en sanitisation
+    - Password hashing
 
 ## Les 5.2 [WG] [Ivo]
 
