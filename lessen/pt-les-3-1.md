@@ -33,9 +33,6 @@ Leer meer over formulieren, soorten inputs en hun attributen door het volgende m
 
 Maak deze opdracht af voor de volgende les.
 
-## Frontend verdieping
-
-Volg pt-les-3-1-frontend.md
 
 ## Backend verdieping
 
