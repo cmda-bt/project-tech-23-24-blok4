@@ -34,7 +34,7 @@ Leer meer over formulieren, soorten inputs en hun attributen door het volgende m
 Maak deze opdracht af voor de volgende les.
 
 
-## Backend verdieping
+## Voorbereiding voor volgende les
 
 Maak voor de volgende verdiepingsles vast een eigen Atlas MongoDB account en database aan volgens de instructies in de officiele [MongoDB start with guide](https://www.mongodb.com/docs/guides/atlas/account/). Volg in elk geval de stappen:
 1. Create MongoDB account
