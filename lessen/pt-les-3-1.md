@@ -51,7 +51,7 @@ We gaan nu een stuk JavaScript toevoegen aan je nieuwe formulier om te zorgen da
 4. Kijk tenslotte of je nu het inlogformulier uit de vorige les kunt gebruiken om in te loggen als je nieuwe gebruiker
 
 
-## Huiswerk: Backend voorbereiding
+## Huiswerk: Voorbereiding voor volgende les
 
 Maak voor de volgende verdiepingsles een eigen Atlas MongoDB account en database aan volgens de instructies in de officiele [MongoDB start with guide](https://www.mongodb.com/docs/guides/atlas/account/). Volg in elk geval de stappen:
 1. Create MongoDB account
