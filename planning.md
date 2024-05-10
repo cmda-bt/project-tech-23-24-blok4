@@ -72,11 +72,11 @@ Geen les 3 en 4 ivm Hemelvaart
     - Responsive design
     - Coding standards
 
-## Les 4.3 [GW] Feedbacksessie [Berry]
+## Les 4.3 [WG] [Berry]
    - Frontend: Animeren herhaling
    - Instructie feedbacksessie
 
-## Les 4.4 [FB] Groepswerk [Ivo]
+## Les 4.4 [GW] Groepswerk [Ivo]
 
 # Week 5    
 
