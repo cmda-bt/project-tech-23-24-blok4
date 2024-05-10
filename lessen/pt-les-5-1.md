@@ -1,6 +1,6 @@
 # Les 5.1 Feedbacksessie, Drag n' Drop
 
-Drag 'n drop
+## Drag 'n drop
 
 ### Bronnen en tools
 - library: **[SortableJS - voor drag en drop](http://sortablejs.github.io/Sortable/)** (www)
