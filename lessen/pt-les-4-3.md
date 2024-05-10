@@ -2,21 +2,22 @@
 
 ## 1. Instructie feedbacksessie
 
-## 2. Drag 'n drop
+## 2. ## Animeren
 
 ### Bronnen en tools
-- library: **[SortableJS - voor drag en drop](http://sortablejs.github.io/Sortable/)** (www)
-- library: **[Swiper - voor carousels](https://swiperjs.com/demos)** (www)
-- library: **[Hammer.js - swipen en andere touch events](https://hammerjs.github.io/)** (www)
 
-### Oefeningen
-- code: **[Oefening lijstjes en libs - drag-n-drop](https://codepen.io/shooft/pen/ZEMXKxp)** (Codepen)
-- code: **[Oefening lijstjes en libs - carousel](https://codepen.io/shooft/pen/RwYLgrm)** (Codepen)
-- code: **[Oefeningen - API drag-and-drop](https://codepen.io/shooft/pen/gOdepNo)** (Codepen)
+- bron: **[CSS selectoren en properties - almanac](https://css-tricks.com/almanac/)** (CSS-tricks)
+- bron: **[Using HSL colors in CSS](https://www.smashingmagazine.com/2021/07/hsl-colors-css/)** (CSS-tricks)
+- bron: **[Guide to Modern CSS Colors](https://www.smashingmagazine.com/2021/11/guide-modern-css-colors/)** (CSS-tricks)
+- tool: [**Contrast-ratio-checker**](https://contrast-ratio.com/) (Lea Verou)
 
-### Uitwerkingen
-- uitwerking: **[Oefening lijstjes en libs - drag-n-drop](https://codepen.io/shooft/pen/eYLGWMB)** (Codepen)
-- uitwerking: **[Oefening lijstjes en libs - carousel](https://codepen.io/shooft/pen/GRXMEoV)** (Codepen)
-- uitwerking: **[Oefeningen - API drag-and-drop](https://codepen.io/shooft/pen/NWLYqZL)** (Codepen)
+### Oefeningen en Uitwerkingen
+
+- code: **[Animeren - Sample](https://codepen.io/shooft/pen/RwBOVjE)** (Codepen)
+- uitwerking: **[Animeren - Sample](https://codepen.io/shooft/pen/NWBmjXP)** (Codepen)
+- uitwerking: **[Animeren - Sample fancy](https://codepen.io/shooft/pen/yLqrbpa)** (Codepen)
+- uitwerking : **[Animeren - Oefening springen maar](https://codepen.io/shooft/pen/jOpRmzq)** (Codepen)
+
+
 
 

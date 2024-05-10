@@ -54,3 +54,5 @@ Er bestaan allerlei tools die je kunnen helpen 'nette' code te schrijven. Je heb
 6. Je kunt ESLint ook als extensie toevoegen in VSCode. Je ziet dan direct alle problemen in je editor en hoeft niet apart ESLint te gebruiken vanuit je Terminal. Let er op dat deze extensie alleen werkt voor je project, als je eerst binnen dat project ESLint hebt geinstalleerd en geconfigureerd volgens bovenstaande stappen.
 
 Pro-tip: je hebt gemerkt dat je tijdens de configuratie van ESLint hebt moeten aangeven of je code draait op Node.js (en dan waarschijnlijk `require` gebruikt om modules in te laden) of in de browser (met `import` statements). Je kunt in aparte mappen van je project ook verschillende `.eslintrc.*` configuratiebestanden maken. In het ene mapje maak je dan regels om je frontend code te checken, en in een ander mapje kun je regels plaatsen voor je back-end code.
+
+

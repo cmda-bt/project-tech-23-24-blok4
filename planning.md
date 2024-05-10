@@ -66,7 +66,6 @@ Geen les 3 en 4 ivm Hemelvaart
 
 ## Les 4.1 [WG] [Ivo en Berry]
     - Backend: Vervolg formulieren verwerken met Node.js en database
-    - Frontend: Animeren herhaling
 
 ## Les 4.2 [WG] [Berry]
     - Frontend optimalisaties
@@ -74,7 +73,7 @@ Geen les 3 en 4 ivm Hemelvaart
     - Coding standards
 
 ## Les 4.3 [GW] Feedbacksessie [Berry]
-   - Drag 'n' Drop, Carousel
+   - Frontend: Animeren herhaling
    - Instructie feedbacksessie
 
 ## Les 4.4 [FB] Groepswerk [Ivo]
@@ -84,13 +83,15 @@ Geen les 3 en 4 ivm Hemelvaart
 Geen les 3 en 4 ivm Pinksteren
 
 ## Les 5.1 [WG] [Berry]
-    - Workshop security
-    - Input validation en sanitisation
-    - Password hashing
+    - Feedbacksessie
+    - Drag 'n drop, carousel
+    
 
 ## Les 5.2 [WG] [Ivo]
-
-- Verdieping backend: File uploads en sessions
+- Workshop security
+    - Input validation en sanitisation
+    - Password hashing
+    - Verdieping backend: File uploads en sessions
 
 # Week 6
 
