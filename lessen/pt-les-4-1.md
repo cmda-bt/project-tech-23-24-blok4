@@ -22,7 +22,7 @@ Voor je verder gaat, is het goed meer te leren over MongoDB:
 **Opdracht: Formulier opslaan in de database**
 
 * Als het goed is, heb je inmiddels een eigen database in je Mongo account aangemaakt en de inloggegevens daarvan toegevoegd aan een .env file. Het is daarbij belangrijk dat je je .env file ook hebt toegevoegd aan je .gitignore
-* Je kunt nu code toevoegen aan je node.js webserver om een verbinding met je database te openen. Gebruik hierbij het voorbeeld uit de les en uit de [boilerplate code](/verdieping-backend/server-boilerplate.js) die we hebben gedeeld.
+* Je kunt nu code toevoegen aan je node.js webserver om een verbinding met je database te openen. Gebruik hierbij het voorbeeld uit de les en uit de [boilerplate code](/bronnen/server-boilerplate.js) die we hebben gedeeld.
 * Maak met de hand wat testdata aan in je database. Dat kan rechtstreeks in de webinterface van MongoDB, maar het kan ook handig zijn de [MongoDB GUI compass](https://www.mongodb.com/products/tools/compass) te downloaden en gebruiken.
 * Maak een nieuwe route aan in je node.js server en doe daarin een find. Vervolgens kun je de gevonden data naar de console loggen. Als je dan in de terminal een javascript object ziet wat overeenkomt met de inhoud van je database, is het mission accomplished.
 * Vorige week heb je een route aangemaakt om de informatie uit het geposte formulier te ontvangen. Deze route liet de ontvangen formulier-data zien. Je kunt nu deze route verder uitbreiden en zorgen dat de ontvangen gegevens uit het formulier ook worden opgeslagen in de database.
