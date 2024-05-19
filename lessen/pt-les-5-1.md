@@ -48,7 +48,7 @@ Hieronder vind je de uitleg van de specifieke JavaScript-code die nodig is voor 
         background-color: #f9f9f9;
         cursor: move;
       }
-    </style>
+</style>
 ```
 
 #### 1.2.1 Dragstart Evenement
