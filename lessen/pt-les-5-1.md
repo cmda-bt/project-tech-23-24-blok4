@@ -15,11 +15,11 @@ Er wordt uitgegaan van twee sections. In de eerste bevindt zich de te slepen quo
 ```
 <section class="quote-container">
         <p id="quote" class="quote" draggable="true">De quote</p>
-      </section>
+</section>
 
-      <section>
+<section>
         <div id="favorites" class="favorites"></div>
-      </section>
+</section>
 ```
 
 Hieronder vind je de uitleg van de specifieke JavaScript-code die nodig is voor het slepen en neerzetten van een citaat naar een favorieten-sectie.
