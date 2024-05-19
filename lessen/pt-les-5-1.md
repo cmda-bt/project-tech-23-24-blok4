@@ -8,7 +8,48 @@ Drag-and-drop is een functionaliteit die je in staat stelt om elementen binnen e
 
 ### 1.2 Uitleg van de Code
 
+#### HTML
+
+Er wordt uitgegaan van twee sections. In de eerste bevindt zich de te slepen quote. In de tweede bevindt zich de div waar het gesleepte element in terecht moet komen. 
+
+```
+<section class="quote-container">
+        <p id="quote" class="quote" draggable="true">De quote</p>
+      </section>
+
+      <section>
+        <div id="favorites" class="favorites"></div>
+      </section>
+```
+
 Hieronder vind je de uitleg van de specifieke JavaScript-code die nodig is voor het slepen en neerzetten van een citaat naar een favorieten-sectie.
+
+#### CSS
+```
+<style>
+      .quote-container {
+        margin-bottom: 20px;
+      }
+
+      .favorites {
+        border: 2px dashed #ccc;
+        padding: 10px;
+        min-height: 100px;
+      }
+
+      .favorites.dragover {
+        border-color: #333;
+      }
+
+      .quote {
+        padding: 10px;
+        border: 1px solid #333;
+        margin-bottom: 10px;
+        background-color: #f9f9f9;
+        cursor: move;
+      }
+    </style>
+```
 
 #### 1.2.1 Dragstart Evenement
 
