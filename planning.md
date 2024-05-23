@@ -84,7 +84,7 @@ Geen les 3 en 4 ivm Pinksteren
 
 ## Les 5.1 [WG] [Berry]
     - Feedbacksessie
-    - Drag 'n drop, carousel
+    - Drag 'n drop
     
 
 ## Les 5.2 [WG] [Ivo]
