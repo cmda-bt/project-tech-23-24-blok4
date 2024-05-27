@@ -14,4 +14,4 @@ Een overzicht van een deel van de theorie die in de les wordt behandeld, de conc
 In de lesplanning staan de lesopdrachten die bij elk lesonderdeel horen. In onderstaande Scrimba playlist zijn alle lesopdrachten van dit project verzameld.\
 [https://scrimba.com/playlist/pKVWv5BUB](https://scrimba.com/playlist/pKVWv5BUB)
 
-test
+
